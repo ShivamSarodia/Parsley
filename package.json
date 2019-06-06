@@ -1,0 +1,24 @@
+{
+  "name": "parsley-expense-tracking",
+  "private": true,
+  "main": "server.js",
+  "author": "Shivam Sarodia",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "gcp-build": "node server/getEnv.js",
+    "start": "node server/server.js",
+    "test-plaid": "node plaid/testPlaid.js",
+    "token-plaid": "node plaid/plaidServer.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "moment": "^2.23.0",
+    "plaid": "^2.10.0"
+  }
+}
