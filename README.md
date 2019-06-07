@@ -1,5 +1,5 @@
 <h1 align="center">Parsley - a lowkey expense tracker</h1>
-<p align="center">~flexible~ and ~lowkey~ tool that imports & tracks your <b>credit, debit, and Venmo expenses</b></p>
+<p align="center">~flexible~ and ~lowkey~ tool that imports & reports your <b>credit, debit, and Venmo expenses</b></p>
 
 ![Example Screenshot](screenshot.png)
 
