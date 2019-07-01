@@ -57,7 +57,7 @@ app.post('/venmo', (request, response, next) => {
     regExp = /You\s*paid\s*([^\n]*)\s*(.*)\s*Transfer Date and Amount:\s*[^$]*\$((?:\d|\.)*)/g
     negate = false;
   } else if(subject.includes("You completed")) {
-    regExp = /([^\n]*)\s*(.*)\s*charged\s*You\s*Transfer Date and Amount:\s*[^$]*\$((?:\d|\.)*)/g
+    regExp = /([^\n]*)\s*charged\s*You\s*(.*)\s*Transfer Date and Amount:\s*[^$]*\$((?:\d|\.)*)/g
     negate = false;
   } else {
     console.log("Ignoring unmatched email with subject: " + subject);
